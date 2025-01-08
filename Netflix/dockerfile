@@ -4,5 +4,5 @@ FROM tomcat:9.0
 # Copy your WAR file into the webapps directory
 COPY Netflix.war /usr/local/tomcat/webapps/
 
-# Expose port 
+# Expose port :
 EXPOSE 8080
